@@ -1,0 +1,4 @@
+.buttonMouseOver:hover {
+	opacity : 0.70;
+	filter : alpha(opacity=70);
+}

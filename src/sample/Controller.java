@@ -59,7 +59,12 @@ public class Controller extends VBox {
         items.removeAll();
         itemList.getItems().clear();
         itemsList.clear();
-        System.out.println(items);
+        currentCapacityLabel.setText("");
+        currentValueLabel.setText("");
+        timeLabel.setText("");
+        ArrayList<String> temp = new ArrayList<>();
+        prepareKnapsackContent(temp);
+
     }
     @FXML
     public void removeSelectedItem(){

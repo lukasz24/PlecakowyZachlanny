@@ -1,4 +1,4 @@
-.buttonMouseOver:hover {
-	opacity : 0.70;
-	filter : alpha(opacity=70);
+.textField:focused{
+	-fx-border-color: black;
+	border-color: black;
 }

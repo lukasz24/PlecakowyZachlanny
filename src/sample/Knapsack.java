@@ -49,9 +49,12 @@ public class Knapsack {
         //System.out.println("\n####### CONTENT: #######\n");
         ArrayList<String> tabela = new ArrayList<>();
         for(int i = 0; i < knapsackContent.size(); i++) {
-          tabela.add(knapsackContent.get(i).name + " " + knapsackContent.get(i).getValue() + "/"+ knapsackContent.get(i).getWeight() );
+          tabela.add(knapsackContent.get(i).name + "  (" + knapsackContent.get(i).getValue() + "/"+ knapsackContent.get(i).getWeight() + ")" );
         }
         return tabela;
     }
 
+    public LinkedList<Item> getKnapsackItems() {
+        return knapsackContent;
+    }
 }

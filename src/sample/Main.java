@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Problem Plecakowy");
-        primaryStage.setScene(new Scene(root, 590, 400));
+        primaryStage.setScene(new Scene(root, 590, 450));
         primaryStage.setResizable(false);
         primaryStage.show();
 

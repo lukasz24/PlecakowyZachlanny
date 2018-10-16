@@ -43,10 +43,13 @@ public class Knapsack {
 	}
 	
 	public void  printContent() {
-		System.out.println("\n####### CONTENT: #######\n");
+		System.out.println("####### CONTENT: #######");
 		for(Item p : knapsackContent) {
 			System.out.println(p.name + " Waga: " + p.getWeight() + " Wartoœæ: " + p.getValue());
 		}
 	}
 	
+	public LinkedList<Item> getKnapsackItems() {
+		return knapsackContent;
+	}
 }
